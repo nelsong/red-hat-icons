@@ -35,7 +35,7 @@
         <mxCell id="jWET5HXzzGEAmXwwXTuC-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="80" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="jWET5HXzzGEAmXwwXTuC-11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0404FF;strokeWidth=2;" parent="1" source="jWET5HXzzGEAmXwwXTuC-21" target="jWET5HXzzGEAmXwwXTuC-10" edge="1">
+        <mxCell id="jWET5HXzzGEAmXwwXTuC-11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0404FF;strokeWidth=2;" parent="1" source="jWET5HXzzGEAmXwwXTuC-25" target="jWET5HXzzGEAmXwwXTuC-10" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="280" y="144.5" as="sourcePoint" />
             <mxPoint x="380" y="144.5" as="targetPoint" />
@@ -55,11 +55,8 @@
         <mxCell id="jWET5HXzzGEAmXwwXTuC-24" value="Build" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="332" y="158.99" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jWET5HXzzGEAmXwwXTuC-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-128.png;imageBackground=default;" parent="1" vertex="1">
-          <mxGeometry x="430" y="131" width="28" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="jWET5HXzzGEAmXwwXTuC-26" value="Deploy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="409" y="159" width="70" height="30" as="geometry" />
+          <mxGeometry x="404" y="159" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="enQy-EZxqhd4LW98C8i8-7" value="GIT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;spacingLeft=0;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="95" y="80" width="40" height="30" as="geometry" />
@@ -81,6 +78,16 @@
         </mxCell>
         <mxCell id="enQy-EZxqhd4LW98C8i8-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB2aWV3Qm94PSIwIDAgMzgwIDM4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UyNDMyOTt9LmNscy0ye2ZpbGw6I2ZjNmQyNjt9LmNscy0ze2ZpbGw6I2ZjYTMyNjt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxPR08iPjxwYXRoIGQ9Ik0yODIuODMsMTcwLjczbC0uMjctLjY5LTI2LjE0LTY4LjIyYTYuODEsNi44MSwwLDAsMC0yLjY5LTMuMjQsNyw3LDAsMCwwLTgsLjQzLDcsNywwLDAsMC0yLjMyLDMuNTJsLTE3LjY1LDU0SDE1NC4yOWwtMTcuNjUtNTRBNi44Niw2Ljg2LDAsMCwwLDEzNC4zMiw5OWE3LDcsMCwwLDAtOC0uNDMsNi44Nyw2Ljg3LDAsMCwwLTIuNjksMy4yNEw5Ny40NCwxNzBsLS4yNi42OWE0OC41NCw0OC41NCwwLDAsMCwxNi4xLDU2LjFsLjA5LjA3LjI0LjE3LDM5LjgyLDI5LjgyLDE5LjcsMTQuOTEsMTIsOS4wNmE4LjA3LDguMDcsMCwwLDAsOS43NiwwbDEyLTkuMDYsMTkuNy0xNC45MSw0MC4wNi0zMCwuMS0uMDhBNDguNTYsNDguNTYsMCwwLDAsMjgyLjgzLDE3MC43M1oiIGNsYXNzPSJjbHMtMSIvPjxwYXRoIGQ9Ik0yODIuODMsMTcwLjczbC0uMjctLjY5YTg4LjMsODguMywwLDAsMC0zNS4xNSwxNS44TDE5MCwyMjkuMjVjMTkuNTUsMTQuNzksMzYuNTcsMjcuNjQsMzYuNTcsMjcuNjRsNDAuMDYtMzAsLjEtLjA4QTQ4LjU2LDQ4LjU2LDAsMCwwLDI4Mi44MywxNzAuNzNaIiBjbGFzcz0iY2xzLTIiLz48cGF0aCBkPSJNMTUzLjQzLDI1Ni44OWwxOS43LDE0LjkxLDEyLDkuMDZhOC4wNyw4LjA3LDAsMCwwLDkuNzYsMGwxMi05LjA2LDE5LjctMTQuOTFTMjA5LjU1LDI0NCwxOTAsMjI5LjI1QzE3MC40NSwyNDQsMTUzLjQzLDI1Ni44OSwxNTMuNDMsMjU2Ljg5WiIgY2xhc3M9ImNscy0zIi8+PHBhdGggZD0iTTEzMi41OCwxODUuODRBODguMTksODguMTksMCwwLDAsOTcuNDQsMTcwbC0uMjYuNjlhNDguNTQsNDguNTQsMCwwLDAsMTYuMSw1Ni4xbC4wOS4wNy4yNC4xNywzOS44MiwyOS44MnMxNy0xMi44NSwzNi41Ny0yNy42NFoiIGNsYXNzPSJjbHMtMiIvPjwvZz48L3N2Zz4=;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="enQy-EZxqhd4LW98C8i8-14">
           <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enQy-EZxqhd4LW98C8i8-15" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0404FF;strokeWidth=2;" edge="1" parent="1" source="jWET5HXzzGEAmXwwXTuC-21" target="jWET5HXzzGEAmXwwXTuC-25">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="376" y="145" as="sourcePoint" />
+            <mxPoint x="520" y="145" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWET5HXzzGEAmXwwXTuC-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-128.png;imageBackground=default;" parent="1" vertex="1">
+          <mxGeometry x="425" y="131" width="28" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
